@@ -96,14 +96,14 @@
 	
 	    <repository>
 	      <id>nexus</id>
-	      <name>DevOps Releases Nexus Repository</name>
-	      <url>http://13.201.82.252:8081/DevOps/repository/scripted-releases/</url>
+	      <name>maven-releases</name>
+	      <url>http://13.201.82.252:8081/repository/maven-releases//</url>
 	    </repository>
 	    
 	    <snapshotRepository>
 	      <id>nexus</id>
-	      <name>DevOps Releases Nexus Repository </name>
-	      <url>http://13.201.82.252:8081/DevOps/repository/scripted-snapshot/</url>
+	      <name>maven-snapshots </name>
+	      <url>http://13.201.82.252:8081/repository/maven-snapshots/</url>
 	    </snapshotRepository>
 	    
 	</distributionManagement>
